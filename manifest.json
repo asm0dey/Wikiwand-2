@@ -1,0 +1,21 @@
+{
+    "manifest_version": 2,
+    "name": "Wikiwand 2",
+    "version": "1.0",
+
+    "description": "Redirects all requests to wikipedia to wikiwand to improve user experience",
+
+    "icons": {
+        "48": "icons/wikiwand48.png",
+        "96": "icons/wikiwand96.png",
+        "64": "icons/wikiwand64.png"
+    },
+    "permissions": [
+        "webRequest",
+        "webRequestBlocking",
+        "<all_urls>"
+    ],
+    "background": {
+        "scripts": ["background.js"]
+    }
+}
