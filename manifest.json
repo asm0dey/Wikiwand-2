@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
     "name": "Wikiwand 2",
-    "version": "1.0",
+    "version": "1.1",
 
     "description": "Redirects all requests to wikipedia to wikiwand to improve user experience",
 
